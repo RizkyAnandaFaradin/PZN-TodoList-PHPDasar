@@ -1,4 +1,2 @@
 <?php
-include  "..\Input\Input.php";
-
-echo $result;
+require_once "../Input/Input.php";
