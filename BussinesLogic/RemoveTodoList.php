@@ -1,5 +1,5 @@
 <?php
-require_once "../Model/TodoList.php";
+require_once __DIR__ . "/../Model/TodoList.php";
 //MENGHAPUS TODO LIST
 function removeTodoList(int $number): bool
 {

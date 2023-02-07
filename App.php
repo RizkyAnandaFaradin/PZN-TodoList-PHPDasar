@@ -1,12 +1,12 @@
 <?php
+require_once  __DIR__ . "/Input/Input.php";
+require_once  __DIR__ . "/Model/TodoList.php";
+require_once  __DIR__ . "/BussinesLogic/AddTodoList.php";
+require_once  __DIR__ . "/BussinesLogic/RemoveTodoList.php";
+require_once  __DIR__ . "/BussinesLogic/ShowTodoList.php";
+require_once  __DIR__ . "/View/ViewAddTodoList.php";
+require_once  __DIR__ . "/View/ViewRemoveTodoList.php";
+require_once  __DIR__ . "/View/ViewShowTodoList.php";
 
-require_once "Model/TodoList.php";
-require_once "BussinesLogic/AddTodoList.php";
-require_once "BussinesLogic/RemoveTodoList.php";
-require_once "BussinesLogic/ShowTodoList.php";
-require_once "View/ViewAddTodoList.php";
-require_once "View/ViewRemoveTodoList.php";
-require_once "View/ViewShowTodoList.php";
-
-
-showTodoList();
+echo PHP_EOL . "Aplikasi TodoList" . PHP_EOL;
+viewShowTodoList();
